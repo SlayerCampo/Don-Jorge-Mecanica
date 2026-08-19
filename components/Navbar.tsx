@@ -61,8 +61,8 @@ export default function Navbar() {
               onClick={(e) => handleNavClick(e, "#hero")}
               className="flex items-center gap-2 group"
             >
-              <div className="w-11 h-11 overflow-hidden rounded-xl bg-gradient-to-br from-orange-400 to-orange-500 flex items-center justify-center shadow-md group-hover:scale-105 transition-transform">
-                <Image src="/logo.jpg" alt="Mecánica de Jorge" width={44} height={44} className="w-full h-full object-contain scale-[2.5] drop-shadow-sm" />
+              <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-orange-400 to-orange-500 flex items-center justify-center shadow-md group-hover:scale-105 transition-transform p-1">
+                <Image src="/logo.png" alt="Mecánica de Jorge" width={32} height={32} className="w-full h-full object-contain drop-shadow-sm" />
               </div>
               <span className="font-bold text-lg text-slate-800 tracking-tight leading-tight">
                 Mecánica<span className="text-orange-500"> de Jorge</span>
