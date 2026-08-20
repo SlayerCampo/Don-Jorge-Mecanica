@@ -107,10 +107,10 @@ export default function About() {
               <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-orange-200 to-yellow-200 blur-2xl opacity-60 scale-105" />
               <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-3xl overflow-hidden shadow-2xl shadow-orange-200/60 border-4 border-white">
                 <Image
-                  src="/jorge-photo.jpg"
-                  alt="Jorge, mecánico móvil de confianza"
+                  src="/mechanic-tools.jpg"
+                  alt="Herramientas y taller de Mecánica de Jorge"
                   fill
-                  className="object-cover object-top"
+                  className="object-cover object-center"
                   sizes="(max-width: 768px) 256px, 320px"
                 />
               </div>

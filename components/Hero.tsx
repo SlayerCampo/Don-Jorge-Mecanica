@@ -91,10 +91,10 @@ export default function Hero() {
               {/* Photo frame */}
               <div className="relative w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-white shadow-2xl shadow-orange-200/60">
                 <Image
-                  src="/jorge-photo.jpg"
-                  alt="Jorge — Tu mecánico de confianza"
+                  src="/mechanic-tools.jpg"
+                  alt="Herramientas de Mecánica de Jorge"
                   fill
-                  className="object-cover object-top"
+                  className="object-cover object-center"
                   sizes="(max-width: 768px) 192px, 224px"
                   priority
                 />
